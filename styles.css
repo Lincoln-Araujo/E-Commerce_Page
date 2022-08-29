@@ -1,0 +1,52 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;  
+    font-weight: 400;
+    color: hsl(220, 14%, 75%);  
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;  
+    height: 100px;  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.menu {    
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid hsl(223, 64%, 98%);
+    padding: 48px
+}
+
+.top-menu {
+    list-style: none;  
+    display: inline-flex;
+}
+
+#logo {
+    height: 22px;
+}
+
+li {
+    padding-left: 32px;
+}
+
+.account-buttons {
+    display: inline-flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+}
+
+#avatar-img {
+    height: 48px;
+    padding-left: 32px;
+}
