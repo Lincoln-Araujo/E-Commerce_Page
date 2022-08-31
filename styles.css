@@ -82,20 +82,21 @@ main {
 
 /* desktop */
 @media only screen and (max-width: 1200px) {
-  .account-buttons {
-    margin-left: 25%;
-  }
+    .account-buttons {
+        margin-left: 25%;
+    }
 }
 
 /* tablet */
 @media only screen and (max-width: 980px) {
-  .account-buttons {
-    margin-left: 8%;
-  }
+    .account-buttons {
+        margin-left: 8%;
+    }
 }
 
 /* smartphone */ 
 @media only screen and (max-width: 470px) {
-  .class {
-    font-size: 2rem;
-  }
+    .class {
+        font-size: 2rem;
+    }
+}
