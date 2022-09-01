@@ -13,6 +13,7 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
+    position: absolute;
 }
 
 .menu {    
@@ -57,16 +58,13 @@ li {
 main {
     width: 100vw;
     height: 100vh;
-    background-color: blueviolet;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 .images-box {
-    width: 30%;
-    height: 35%;
-    background-color: aqua;
+    width: 400px;
 }
 
 .text-box {
@@ -76,6 +74,30 @@ main {
     justify-content: space-around;
     text-align: left;
     margin-left: 10%
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+#featured-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.other-pictures {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.small-pictures {
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
 }
 
 /* responsiveness settings */
