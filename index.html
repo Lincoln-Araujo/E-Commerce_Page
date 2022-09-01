@@ -16,6 +16,11 @@
      <link 
       rel="stylesheet" 
       type="text/css" 
+      href="magnific-popup.css">
+
+      <link 
+      rel="stylesheet" 
+      type="text/css" 
       href="styles.css">
 
     <!--Text font-->
@@ -71,42 +76,50 @@
 
       <main>
 
-        <div class="images-box">
-
-          <figure >
-            <!--featured image-->
-            <img 
-              alt="image product one" 
-              src="/images/image-product-1.jpg" 
-              id="featured-image"/>
+          <figure >            
             
             <!--text-->
             <div class="other-pictures">
-            
+
+              <!--featured image-->
+            <a class="image-link featured-image" href="/images/image-product-1.jpg">
               <img 
-                class="small-pictures" 
                 alt="image product one" 
-                src="/images/image-product-1-thumbnail.jpg" 
-                id="product1" />            
-            
-              <img 
-                class="small-pictures" 
-                alt="image product one" 
-                src="/images/image-product-2-thumbnail.jpg" 
-                id="product2" />            
-            
-              <img 
-                class="small-pictures" 
-                alt="image product one" 
-                src="/images/image-product-3-thumbnail.jpg" 
-                id="product3" />            
-            
-              <img 
-                class="small-pictures" 
-                alt="image product one" 
-                src="/images/image-product-4-thumbnail.jpg" 
-                id="product4" />
-            
+                src="/images/image-product-1.jpg"/>
+            </a>
+
+              <a 
+                class="image-link small-pictures" 
+                href="/images/image-product-1.jpg" >
+                <img 
+                  alt="image product one" 
+                  src="/images/image-product-1-thumbnail.jpg"/>
+              </a>
+
+              <a 
+                class="image-link small-pictures" 
+                href="/images/image-product-2.jpg">
+                <img 
+                  alt="image product two" 
+                  src="/images/image-product-2-thumbnail.jpg"/>
+              </a>
+
+              <a 
+                class="image-link small-pictures" 
+                href="/images/image-product-3.jpg">
+                <img 
+                  alt="image product three" 
+                  src="/images/image-product-3-thumbnail.jpg"/>
+              </a>
+
+              <a 
+                class="image-link small-pictures" 
+                href="/images/image-product-4.jpg">
+                <img 
+                  alt="image product four" 
+                  src="/images/image-product-4-thumbnail.jpg"/>
+              </a>
+                        
             </div>
 
           </figure>
@@ -189,7 +202,9 @@
 
       </main>
 
-   <script src="/sript.js"></script> 
+   <script src="/jquery.min.js"></script> 
+   <script src="/magnific-popup.js"></script>
+   <script src="/script.js"></script>
     
   </body>
 
