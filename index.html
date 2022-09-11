@@ -75,55 +75,40 @@
       </header>
 
       <main>
+        <section class="container-grid">
 
-          <figure >  
-            <!--featured image-->
-            <a id="featured-image" href="./images/image-product-1.jpg">
-              <img 
-                alt="image product one" 
-                src="./images/image-product-1.jpg"/>
-            </a>
-            
-            <!--other pictures-->
-            <div class="other-pictures">            
+          <img 
+            src="./images/image-product-1.jpg" 
+            alt="product 1" 
+            class="img img-1"
+            id="featured-image"/>
+                
+          <div class="other-pictures">
 
-              <a 
-                class="small-pictures" 
-                href="./images/image-product-1.jpg" >
-                <img 
-                  alt="image product one" 
-                  src="./images/image-product-1-thumbnail.jpg"/>
-              </a>
+            <img 
+              src="./images/image-product-1-thumbnail.jpg" 
+              alt="product 1" 
+              class="img img-2 small-pictures"/>
+            <img 
+              src="./images/image-product-2-thumbnail.jpg" 
+              alt="product 2" 
+              class="img img-3 small-pictures"/>
+            <img 
+              src="./images/image-product-3-thumbnail.jpg" 
+              alt="product 3" 
+              class="img img-4 small-pictures"/>
+            <img 
+              src="./images/image-product-4-thumbnail.jpg" 
+              alt=" product 4 " 
+              class="img img-5 small-pictures"/>
+          </div>
 
-              <a 
-                class="small-pictures" 
-                href="./images/image-product-2.jpg">
-                <img 
-                  alt="image product two" 
-                  src="./images/image-product-2-thumbnail.jpg"/>
-              </a>
+          <div class="container-img">
+            <img src="" alt="" class="img-show">
+            <img src="./images/icon-close.svg" class="close-button"/>
+          </div>
 
-              <a 
-                class="small-pictures" 
-                href="./images/image-product-3.jpg">
-                <img 
-                  alt="image product three" 
-                  src="./images/image-product-3-thumbnail.jpg"/>
-              </a>
-
-              <a 
-                class="small-pictures" 
-                href="./images/image-product-4.jpg">
-                <img 
-                  alt="image product four" 
-                  src="./images/image-product-4-thumbnail.jpg"/>
-              </a>
-                        
-            </div>
-
-          </figure>
-        
-        </div>
+        </section>
 
         <div class="text-box">
 
@@ -201,7 +186,8 @@
 
       </main>
     
-      <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+      <script src="./script.js"></script>
+
   </body>
 
 </html>
