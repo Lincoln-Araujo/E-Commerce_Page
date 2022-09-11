@@ -2,6 +2,8 @@
 
 ![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
 
+LINK: https://lincoln-araujo.github.io/E-Commerce_Page/
+
 ## Welcome! 👋
 
 This project is an e-commerce product.
